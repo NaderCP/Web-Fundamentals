@@ -1,0 +1,29 @@
+.colored{
+    color: #00FFFF;
+}
+
+h1{
+    text-align: left;
+    background-color: black;
+    color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+h2{
+    text-align: center;
+    background-color: #663399;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: azure;
+    font-size: larger;
+}
+
+h3{
+    text-align: right;
+    background-color: rgb(12, 175, 175);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    color: #663399;
+
+}
