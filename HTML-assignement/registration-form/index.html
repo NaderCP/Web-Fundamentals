@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form >
+        <h1>Registration Form</h1>
+        <div>
+            <label for="firstname">Firstname :*</label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="lastname">Lastname :*</label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="useremail">E-mail :*</label>
+            <input type="email">
+        </div>
+        <div>
+            <label for="password1">Password :*</label>
+            <input type="password">
+        </div>
+        <div>
+            <label for="password2">Confirm Password :*</label>
+            <input type="password">
+        </div>
+        <div>
+            <p>Gender Identity :*</p>
+            <input type="radio" value="male"><label for="male">Male</label>
+            <input type="radio" value="female"><label for="female">female</label>
+            <input type="radio" value="nonbinary"><label for="nonbinary">Non-Binary</label>
+            <input type="radio" value="noanswer"><label for="noanswer">I prefer not to answer</label>
+        </div>
+        <div>
+            <p>Short Description of myself : </p>
+            <textarea name="SelfDescription" id="description"></textarea>
+        </div>
+        <div>
+            <label for="programmingLanguage">Favorite Language :*</label>
+            <select name="programmingLanguage" id="language">
+                <option value="Javascript">Javascript</option>
+                <option value="Python">Python</option>
+                <option value=".net">.net</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="AgreeEmail" id="AgreeEmail">
+            <label for="agree">Yes, i would like to receive email updates !!</label>
+        </div>
+        <div>
+            <button type="submit">Create Account</button>
+            <p>* Indicates a required field</p>
+        </div>
+    </form>
+</body>
+</html>
