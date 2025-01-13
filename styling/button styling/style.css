@@ -1,0 +1,34 @@
+#search_btn
+{
+    background-color: azure;
+    color: darkcyan;
+    font-weight:bold;
+    border-style: solid;
+    border-color: darkcyan;
+    border-radius: 15px;
+    padding: 5px 30px;
+    margin-bottom: 20px;
+    /*border: darkcyan;*/
+}
+
+
+#plus_btn
+{
+   background-color: aqua;
+    color: white;
+    border-radius: 50%;
+    border: 0px;
+    font-weight: bolder;
+    font-size: larger;
+    display: flex;
+}
+#create_btn{
+    background-color: #2B78E4;
+    color: white;
+    box-shadow: 2px 2px  black;
+
+    border: 1px solid black;
+    
+    border-style: solid;
+    padding: 5px;
+}
