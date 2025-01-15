@@ -1,0 +1,39 @@
+
+
+.box-1 > img , .box-2 > img , .box-3 > img{
+    height: 200px;
+}
+
+.container{
+    width: 800px;
+    background-color: #EAF3FF;
+    /*display: flex;
+    justify-content: center;*/
+}
+.container > h1{
+    text-align: center;
+   
+    color: #354860;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box-1{
+background-color: #5DC9F8;
+display: flex;
+justify-content: space-between;
+padding: 15px;
+margin: 15px;
+}
+
+.box-2{
+    background-color: #D5B0AA;
+    padding: 15px;
+    margin: 15px;
+    justify-content: space-around; 
+    display: flex;
+}
+
+.box-3{
+    display: flex;
+    justify-content: space-between; 
+}

@@ -3,10 +3,10 @@
     background-color: silver;
     margin: 0px auto;
     padding: 15px;
-    display: flex;flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 
-    /*flex-direction: column;
-    /*flex-wrap: wrap;*/
+    
   
 }
 .top-nav {
@@ -28,7 +28,7 @@
     background-color: red;
     margin: 10px;
     padding: 5px;
-    /*display: flex;*/
+    
 }
 
 .sub-content {
