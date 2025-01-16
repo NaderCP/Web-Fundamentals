@@ -1,0 +1,34 @@
+
+.row{
+    
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px; 
+    padding: 10px;
+    
+   
+   } 
+
+.col {
+    background-color: darkcyan;
+    text-align: center;
+    flex: 1;
+    padding: 5px;
+    
+}
+.col-2 {
+    background-color: darkcyan;
+    text-align: center;
+    flex:2;
+    padding: 5px;
+   
+}
+.col-3 {
+    background-color: darkcyan;
+    text-align: center;
+    flex: 3;
+    padding: 5px;
+   
+}
