@@ -1,0 +1,49 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav{
+    background-color: #333333 ;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    
+}
+
+.nav-title{
+    color: aliceblue;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+
+    list-style-type: none;
+    text-decoration: none;
+    gap: 15px;
+    height: 80px;
+}
+.nav-links > li > a{
+    text-decoration: none;
+    color: darkgray;
+}
+li:hover {
+  color:black;
+  font-size: 18px;
+}
+ .nav-links :hover {
+    color: aliceblue;
+}
+
+.btn{
+    gap: 30px;
+    background-color: #2B78E4;
+    color: white;
+    box-shadow: 2px 2px  black;
+
+    border: 1px solid black;
+    
+    border-style: solid;
+    /*padding: 5px;*/
+}
