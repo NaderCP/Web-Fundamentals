@@ -7,7 +7,15 @@
 
     /*flex-direction: column;
     /*flex-wrap: wrap;*/
-  
+
+}
+
+.row{
+    display: flex;
+    align-items: ;
+    justify-content: space-between;
+    justify-content: flex-start; 
+    
 }
 .top-nav {
     height: 150px;
@@ -28,6 +36,7 @@
     background-color: red;
     margin: 10px;
     padding: 5px;
+   
     /*display: flex;*/
 }
 
@@ -35,8 +44,11 @@
     height: 200px;
     width: 210px;
     background-color: yellow;
-    display: inline-block;margin: 5px;vertical-align: auto;
-   
+    /*display: inline-block;*/
+    gap: 5px;
+    margin: 5px;
+    /*vertical-align: auto;*/
+ 
     
    /* margin: 5px;*/
 }
