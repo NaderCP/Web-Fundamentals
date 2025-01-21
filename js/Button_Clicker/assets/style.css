@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+
+/*main{
+    display: flex;
+   justify-content: center;
+   
+}*/
+
+.container{
+   
+    font-family: 'Fredoka', sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+#log_btn
+{
+    background-color: #2B78E4;
+    color: white;
+    box-shadow: 2px 2px  black;
+
+    border: 1px solid black;
+    
+    border-style: solid;
+    padding: 5px;
+    margin-right: 20px;
+}
+#log_btn_like
+{
+    background-color: #FFD966;
+    color: black;
+    box-shadow: 2px 2px  black;
+
+    border: 1px solid black;
+    
+    border-style: solid;
+    padding: 5px;
+    margin-right: 20px;
+}
+#definition_Btn
+{
+    background-color: #93C47D;
+    color: black;
+    box-shadow: 2px 2px  black;
+    display: block;
+    border: 1px solid black;
+    
+    border-style: solid;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.top_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C1C1C1;
+    width: 70%;
+    height: 60px;
+}
+.top_bar > h1 {
+    padding: 10px;
+}
+.article{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    flex: 2;
+    
+    
+}
+.dictionary{
+    flex: 1;
+    border: 1px solid black;
+    align-content: center;
+    justify-items: center;
+}
+.articles{
+    margin-top: 15px;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    /*align-items: center;*/
+    gap: 50px;
+}
+.noborder{
+    border: 0;
+}
+#bold{
+    font-weight: bolder;
+    font-size: 3rem;
+    
+}
