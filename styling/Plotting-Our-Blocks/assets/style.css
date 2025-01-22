@@ -1,9 +1,13 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 .container{
     width: 950px;
     background-color: silver;
     margin: 0px auto;
     padding: 15px;
-    display: flex;
+    display:block;
     flex-wrap: wrap;
 
     
@@ -13,21 +17,28 @@
     height: 150px;
     width: 950px;
     background-color: green;
-    margin: 10px;
+    /*margin: 10px;*/
+    /*display: inline-block;*/
     
 }
+
 .side-nav {
     height: 300px;
     width: 200px;
     background-color: blue;
     margin: 10px;
+    display: inline-block;
+    
 }
 .main {
     height: 400px;
-    width: 700px;
+    width: 680px;
     background-color: red;
     margin: 10px;
     padding: 5px;
+    display: inline-block;
+    vertical-align: top;
+    
     
 }
 
