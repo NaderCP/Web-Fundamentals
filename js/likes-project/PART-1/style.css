@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+#likeBTN
+{
+    background-color: #FFD966;
+    color: black;
+    box-shadow: 2px 2px  black;
+    border: 1px solid black;
+    border-style: solid;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.box{
+    padding: 5px;
+    width: 400px;
+    height: 80px;
+    border: 2px solid black;
+}
+.userinfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
